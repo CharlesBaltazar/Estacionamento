@@ -1,0 +1,85 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/frontend/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Seleção de Vagas</title>
+</head>
+<body>
+    <header>
+        <div class="content">
+            <h1>ESCOLHA UMA DAS VAGAS DISPONÍVEIS</h1>
+        </div>
+    </header>
+    <main>
+        <div id="vagas-container">
+            <div class="vagas_a">
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="A1">A1</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="A2">A2</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="A3">A3</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="A4">A4</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="A5">A5</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="A6">A6</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="A7">A7</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="A8">A8</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="A9">A9</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="A10">A10</button>
+            </div>
+            <div class="vagas_b">
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="B1">B1</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="B2">B2</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="B3">B3</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="B4">B4</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="B5">B5</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="B6">B6</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="B7">B7</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="B8">B8</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="B9">B9</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="B10">B10</button>
+            </div>
+            <div class="vagas_c">
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="C1">C1</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="C2">C2</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="C3">C3</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="C4">C4</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="C5">C5</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="C6">C6</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="C7">C7</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="C8">C8</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="C9">C9</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="C10">C10</button>
+            </div>
+            <div class="vagas_d">
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="D1">D1</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="D2">D2</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="D3">D3</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="D4">D4</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="D5">D5</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="D6">D6</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="D7">D7</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="D8">D8</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="D9">D9</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="D10">D10</button>
+            </div>
+            <div class="vagas_e">
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="E1">E1</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="E2">E2</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="E3">E3</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="E4">E4</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="E5">E5</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="E6">E6</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="E7">E7</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="E8">E8</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="E9">E9</button>
+                <button class="botao-vaga"  type="submit" onclick="vagas(event)" data-identificador="E10">E10</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="./vagas.js"></script>
+</body>
+</html> -->

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <title>Cadastro do Veículo</title>
+</head>
+
+<body>
+    <header>
+        <div class="content">
+            <h1>IDENTIFICAÇÃO DE PLACA</h1>
+            <img src="/backend/src/assets/placa-estacionamento-estacionar.png" alt="placa_estacionar" id="placa-img">
+        </div>
+    </header>
+
+    <main>
+        <div class="cadastro-container">
+            <div class="placa-cadastro">
+                <h2>DIGITE SUA PLACA</h2>
+                <input type="text" placeholder="---.-.-.--" class="campo-preencher" id="placa" maxlength="7">
+            </div>
+            <div class="senha-cadastro">
+                <h2>DIGITE SUA SENHA</h2>
+                <input type="text" placeholder="---" class="campo-preencher" id="senha">
+            </div>
+            <button id="botao-confirmar" type="submit" onclick="cadastrar(event)">Confirmar</button>
+            <a href="/frontend/login.html" class="possui-registro">JÁ TEM UM REGISTRO? FAZER LOGIN</a>
+        </div>
+    </main>
+    <script src="./cadastro.js"></script>
+</body>
+
+</html>
